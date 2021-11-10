@@ -1,8 +1,9 @@
 module github.com/ringsq/gormsqlite
 
-go 1.14
+go 1.16
 
 require (
-	gorm.io/gorm v1.21.8
+	github.com/stretchr/testify v1.7.0
+	gorm.io/gorm v1.22.2
 	modernc.org/sqlite v1.10.4
 )
